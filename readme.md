@@ -1,4 +1,4 @@
-# Flask webscrapper
+# Flask webscraper
 
 Simple implementation of python flask application  
 using web scraping to pull content from another hosted site  
