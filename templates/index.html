@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<title>Webscraper in Python using Flask</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anoymous">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h2 {font-family: "Raleway", sans-serif}
+body,h3 {font-family: "Raleway", sans-serif}
+body {
+  background-color: lightblue;
+}
+</style>
+  <body>
+    <br>
+      <br>
+        <br>
+         <br>
+          <br>
+           <br>
+             <div class="container">
+             <h2>Luna Rosa Gelato flavors for today  {{ date }}</h2>
+              <br>
+              {% for r in rows %}
+              <h3>{{r.get_text()}}</h3>
+              {% endfor %}
+              </div>
+            <br>
+     </body>
+</html>
