@@ -37,7 +37,7 @@ def index():
     return render_template('index.html',**locals())
 
 try:
-    raise ValueError('chuck')
+    raise ValueError('Major_Malfunction')
 except Exception as err:
     notifier.notify(err)
 
